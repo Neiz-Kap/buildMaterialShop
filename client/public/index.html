@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <title>Строймагазин для вашего дома</title>
+  <style>
+    body,
+    * {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    a,
+    .nav-link {
+      color: black !important;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    /* a.active::after {
+      content: '';
+      display: block;
+      height: 2px;
+      background-color: white;
+    } */
+
+    h3,
+    h1 {
+      font-size: 150%;
+      color: #313131;
+    }
+
+    .card {
+      border: 0;
+    }
+
+    .btn {
+      border-radius: 10px;
+    }
+
+    .badge {
+      height: max-content;
+    }
+
+
+
+
+    .list-group-item.active {
+      border-radius: 4px;
+      background: #f5f5f5;
+      border: none;
+      font-weight: 500;
+      color: #a5a9af;
+    }
+
+    .spinner-block {
+      min-height: 100vh;
+    }
+
+    .navbar-basket__icon {
+      padding: 5px 0 5px;
+      width: 30px;
+      height: 38px;
+    }
+
+    .navbar-basket__text {
+      display: block;
+      font-weight: 500;
+      text-align: left;
+      font-size: .75rem;
+      color: #a5a9af;
+    }
+
+    .navbar-basket__price {
+      font-size: .875rem;
+      display: block;
+      font-weight: 500;
+    }
+
+    .navbar-seacrh {
+      max-width: 600px;
+      position: relative;
+    }
+
+    .navbar--search__input {
+      border: 1px solid #ffd000;
+      height: 36px;
+      background: #f5f5f5;
+      border-radius: 4px;
+      padding: 10px 60px 10px 15px;
+      cursor: pointer;
+    }
+
+    .navbar--search__button {
+      background-color: transparent;
+      outline: none;
+      border: none;
+      z-index: 1;
+      position: absolute;
+      right: 10px;
+      height: 100%;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
+    .device-info__value,
+    .device-info__name {
+      z-index: 1;
+      background-color: #fff;
+    }
+
+    .device__list .list-group-item {
+      position: relative;
+    }
+
+    .device-card__btn {
+      max-width: 200px;
+    }
+
+    @media (min-width: 576px) {
+      .device-info__card {
+        padding: 40px 10% 32px;
+        box-shadow: 0 4px 24px rgb(0 0 0 / 8%);
+        border-radius: 8px;
+      }
+    }
+
+    @media (max-width: 992px) {
+      .device-info__buy {
+        order: -1;
+      }
+
+      .device-info__card {
+        max-width: 310px;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .device__list .list-group-item:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 27px;
+        z-index: 0;
+        width: 100%;
+        height: 1px;
+        border-bottom: 1px dotted #a5a9af;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .navbar-seacrh {
+        max-width: 300px;
+      }
+
+      .navbar-nav {
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>
